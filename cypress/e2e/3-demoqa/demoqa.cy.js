@@ -1,6 +1,6 @@
 describe("DemoQA", () => {
 
-it("should select an item from the list", () => {
+it("clicks TWO, FOUR, SIX, EIGHT", () => {
     cy.visit("https://demoqa.com/selectable");
     cy.get("#demo-tab-grid").click();
     cy.get(".list-group-item")
